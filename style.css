@@ -1,0 +1,129 @@
+
+
+  @import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&family=Poppins&display=swap');
+
+.header{
+    width: 371px;
+    height: 982px;
+    border:2px solid black;
+    margin: 10px;
+    background-color:  #000000;
+}
+
+.section{
+    margin-top: 39px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-left: 40px;
+}
+
+.home{
+    display: flex;
+    margin-top: 20px;
+}
+
+
+
+.homep{
+
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding-left: 30px;
+    font-family: DM Sans;
+font-size: 20px;
+font-weight: 700;
+line-height: 25px;
+letter-spacing: -0.06em;
+
+
+
+}
+
+.image{
+    display: flex;
+    justify-content:center;
+    
+}
+.search{
+    color:white;
+    display: flex;
+}
+
+.searchp{
+    display: flex;
+    justify-content: center;
+    padding-left: 30px;
+    font-family: DM Sans;
+    font-size: 20px;
+}
+
+.library{
+    display: flex;
+}
+
+.libraryp{
+    display: flex;
+    justify-content: center;
+    padding-left: 30px;
+    font-family: DM Sans;
+    font-size: 20px;
+    color:white;
+}
+
+.playlist{
+   margin-top: 80px;
+   display: flex;
+}
+.playlistimage{
+    background-color: white
+
+}
+.create{
+    display: flex;
+    justify-content: center;
+    padding-left: 30px;
+    font-family: DM Sans;
+    font-size: 20px;
+    color:white;
+}
+
+.liked{
+    display: flex;
+}
+.likesong{
+    display: flex;
+    justify-content: center;
+    padding-left: 30px;
+    font-family: DM Sans;
+    font-size: 20px;
+    color:white;
+}
+
+.episode{
+    display: flex;
+}
+
+.episodey{
+    display: flex;
+    justify-content: center;
+    padding-left: 30px;
+    font-family: DM Sans;
+    font-size: 20px;
+    color:white;
+
+}
+
+.list{
+    color:white;
+    margin-top: 20px;
+    line-height: 40px;
+    font-family: DM Sans;
+    font-size: 19px;
+    font-weight: 700;
+}
+
+
+
+
