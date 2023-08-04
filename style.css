@@ -2,12 +2,11 @@
 
 .project {
   display: flex;
-  justify-content: center;
 }
 
 .header {
   width: 371px;
-  height: 1115px;
+  height: 1140px;
   border: 2px solid black;
   margin-top: 10px;
   margin-left: 10px;
@@ -89,13 +88,15 @@
   color: white;
 }
 
-.liked {
+.liked333{
   display: flex;
+ align-items: center;
+  
 }
-.likesong {
+.likesong334{
   display: flex;
   justify-content: center;
-  padding-left: 30px;
+  padding-left: 20px;
   font-family: DM Sans;
   font-size: 20px;
   color: white;
@@ -108,7 +109,7 @@
 .episodey {
   display: flex;
   justify-content: center;
-  padding-left: 30px;
+  padding-left: 25px;
   font-family: DM Sans;
   font-size: 20px;
   color: white;
@@ -140,8 +141,8 @@
 }
 
 .side {
-  width: 1400px;
-  height: 1115px;
+  width: 1500px;
+  height: 1140px;
   background: linear-gradient(
     180deg,
     #222222 0%,
@@ -174,7 +175,6 @@
 .secondsection {
   margin-top: 50px;
   margin-left: 50px;
-  
 }
 
 .good {
@@ -188,35 +188,63 @@
   display: flex;
 }
 
-.function{
-    line-height: 40px;
-    
+.function {
+  line-height: 40px;
 }
 
-.music-content{
-    margin-top: 30px;
-    margin-left: 50px;
+.music-content {
+  margin-top: 30px;
+  margin-left: 50px;
 }
 
-.text{
-font-family: DM Sans;
-font-size: 29px;
-font-weight: 700;
-line-height: 38px;
-letter-spacing: -0.04em;
-text-align: left;
-color: white;
-
+.text {
+  font-family: DM Sans;
+  font-size: 29px;
+  font-weight: 700;
+  line-height: 38px;
+  letter-spacing: -0.04em;
+  text-align: left;
+  color: white;
 }
 
-.categories{
-    display: flex;
-    justify-content: space-evenly;
+.categories {
+  display: flex;
+  justify-content: space-between;
 }
 
-.categories-2{
-    display: flex;
-    justify-content: space-evenly;
+.categories-2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer {
+  width: 1500px;
+  height: 112px;
+  background-color: #282828;
+  margin-left: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-background {
+  display: flex;
+  align-items: center;
+  background-color: black;
+}
+
+.artist-title {
+  margin-left: 17px;
+  float: left;
+}
+.music-player {
+  justify-content: center;
+  margin-left: 170px;
+}
+
+.right-option {
+  float: right;
+  margin-left: 100px;
+
 }
 
 
