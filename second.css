@@ -255,6 +255,9 @@ background-color: black;
 
 }
 
+.list-element{
+  list-style-type: none;
+}
 
 
 
